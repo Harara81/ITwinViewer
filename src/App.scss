@@ -1,0 +1,38 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+.viewer-container {
+  height: 100vh;
+
+  .signin-content {
+    width: 400px;
+  }
+}
+#addRoom{
+  //padding-left: 20px;
+  margin-left: 20px;
+}
+.room__list{
+  list-style-type: none;
+  padding-left: 20px;
+}
+.temp{
+  display:none;
+}
+.room__link{
+align-content: flex-start;
+}
+.room__link:hover{
+  background-color:darkslategray;
+  color: greenyellow;
+  cursor:pointer;
+}
+.room__link:active{
+  background-color:rgb(79, 47, 59);
+  color: rgb(248, 255, 47);
+  border-color: black;
+  font-weight: bold;
+  border-style: groove;
+  border-color: gray;
+}
